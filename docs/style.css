@@ -1,0 +1,68 @@
+:root {
+  color-scheme: light;
+  font-family: "Source Sans 3", system-ui, "Microsoft YaHei", sans-serif;
+  color: #1b2736;
+  background: #f3f6fa;
+  line-height: 1.75;
+}
+
+body {
+  margin: 0;
+  padding: 0 1rem;
+}
+
+main {
+  box-sizing: border-box;
+  max-width: 48rem;
+  margin: clamp(1rem, 5vw, 3rem) auto;
+  padding: clamp(1.25rem, 5vw, 3rem);
+  background: #fff;
+  border: 1px solid #dce4ed;
+  border-radius: 1rem;
+  overflow-wrap: anywhere;
+}
+
+nav {
+  margin-bottom: 1rem;
+}
+
+h1, h2 {
+  line-height: 1.4;
+}
+
+h1 {
+  margin: 0 0 1rem;
+  font-size: clamp(1.65rem, 5vw, 2.25rem);
+}
+
+h2 {
+  margin: 1.75rem 0 0.5rem;
+  font-size: 1.2rem;
+}
+
+p, ol, ul {
+  margin: 0 0 0.75rem;
+}
+
+ol, ul {
+  padding-inline-start: 1.5rem;
+}
+
+li + li {
+  margin-top: 0.25rem;
+}
+
+.dates {
+  color: #465970;
+  font-size: 0.95rem;
+}
+
+a {
+  color: #164c9c;
+  text-underline-offset: 0.18em;
+}
+
+a:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 3px;
+}
